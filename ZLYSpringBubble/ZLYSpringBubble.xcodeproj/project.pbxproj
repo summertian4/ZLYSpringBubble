@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82FB96951E35DF94008EDA76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96941E35DF94008EDA76 /* main.m */; };
+		82FB969E1E35DF94008EDA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FB969C1E35DF94008EDA76 /* Main.storyboard */; };
+		82FB96A01E35DF94008EDA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FB969F1E35DF94008EDA76 /* Assets.xcassets */; };
+		82FB96A31E35DF94008EDA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FB96A11E35DF94008EDA76 /* LaunchScreen.storyboard */; };
+		82FB96AE1E35DF94008EDA76 /* ZLYSpringBubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96AD1E35DF94008EDA76 /* ZLYSpringBubbleTests.m */; };
+		82FB96B91E35DF94008EDA76 /* ZLYSpringBubbleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96B81E35DF94008EDA76 /* ZLYSpringBubbleUITests.m */; };
+		82FB96CD1E35DFE0008EDA76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96C81E35DFE0008EDA76 /* AppDelegate.m */; };
+		82FB96CE1E35DFE0008EDA76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96CC1E35DFE0008EDA76 /* ViewController.m */; };
+		82FB96D21E35E48A008EDA76 /* ZLYBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96D11E35E48A008EDA76 /* ZLYBubbleView.m */; };
+		82FB96D81E35E7F8008EDA76 /* ZLYCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB96D71E35E7F8008EDA76 /* ZLYCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82FB96AA1E35DF94008EDA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FB96881E35DF94008EDA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FB968F1E35DF94008EDA76;
+			remoteInfo = ZLYSpringBubble;
+		};
+		82FB96B51E35DF94008EDA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FB96881E35DF94008EDA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FB968F1E35DF94008EDA76;
+			remoteInfo = ZLYSpringBubble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82FB96901E35DF94008EDA76 /* ZLYSpringBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLYSpringBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FB96941E35DF94008EDA76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82FB969D1E35DF94008EDA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82FB969F1E35DF94008EDA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82FB96A21E35DF94008EDA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82FB96A41E35DF94008EDA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FB96A91E35DF94008EDA76 /* ZLYSpringBubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYSpringBubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FB96AD1E35DF94008EDA76 /* ZLYSpringBubbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYSpringBubbleTests.m; sourceTree = "<group>"; };
+		82FB96AF1E35DF94008EDA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FB96B41E35DF94008EDA76 /* ZLYSpringBubbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYSpringBubbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FB96B81E35DF94008EDA76 /* ZLYSpringBubbleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYSpringBubbleUITests.m; sourceTree = "<group>"; };
+		82FB96BA1E35DF94008EDA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FB96C71E35DFE0008EDA76 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82FB96C81E35DFE0008EDA76 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82FB96CB1E35DFE0008EDA76 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82FB96CC1E35DFE0008EDA76 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82FB96D01E35E48A008EDA76 /* ZLYBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLYBubbleView.h; sourceTree = "<group>"; };
+		82FB96D11E35E48A008EDA76 /* ZLYBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLYBubbleView.m; sourceTree = "<group>"; };
+		82FB96D61E35E7F8008EDA76 /* ZLYCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLYCircle.h; sourceTree = "<group>"; };
+		82FB96D71E35E7F8008EDA76 /* ZLYCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLYCircle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FB968D1E35DF94008EDA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB96A61E35DF94008EDA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB96B11E35DF94008EDA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82FB96871E35DF94008EDA76 = {
+			isa = PBXGroup;
+			children = (
+				82FB96921E35DF94008EDA76 /* ZLYSpringBubble */,
+				82FB96AC1E35DF94008EDA76 /* ZLYSpringBubbleTests */,
+				82FB96B71E35DF94008EDA76 /* ZLYSpringBubbleUITests */,
+				82FB96911E35DF94008EDA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82FB96911E35DF94008EDA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FB96901E35DF94008EDA76 /* ZLYSpringBubble.app */,
+				82FB96A91E35DF94008EDA76 /* ZLYSpringBubbleTests.xctest */,
+				82FB96B41E35DF94008EDA76 /* ZLYSpringBubbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FB96921E35DF94008EDA76 /* ZLYSpringBubble */ = {
+			isa = PBXGroup;
+			children = (
+				82FB96C61E35DFE0008EDA76 /* App */,
+				82FB96CF1E35E012008EDA76 /* ZLYSpringBubble */,
+				82FB96C91E35DFE0008EDA76 /* View */,
+				82FB96CA1E35DFE0008EDA76 /* ViewController */,
+				82FB96931E35DF94008EDA76 /* Supporting Files */,
+			);
+			path = ZLYSpringBubble;
+			sourceTree = "<group>";
+		};
+		82FB96931E35DF94008EDA76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82FB969F1E35DF94008EDA76 /* Assets.xcassets */,
+				82FB96A41E35DF94008EDA76 /* Info.plist */,
+				82FB96941E35DF94008EDA76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82FB96AC1E35DF94008EDA76 /* ZLYSpringBubbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				82FB96AD1E35DF94008EDA76 /* ZLYSpringBubbleTests.m */,
+				82FB96AF1E35DF94008EDA76 /* Info.plist */,
+			);
+			path = ZLYSpringBubbleTests;
+			sourceTree = "<group>";
+		};
+		82FB96B71E35DF94008EDA76 /* ZLYSpringBubbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82FB96B81E35DF94008EDA76 /* ZLYSpringBubbleUITests.m */,
+				82FB96BA1E35DF94008EDA76 /* Info.plist */,
+			);
+			path = ZLYSpringBubbleUITests;
+			sourceTree = "<group>";
+		};
+		82FB96C61E35DFE0008EDA76 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82FB969C1E35DF94008EDA76 /* Main.storyboard */,
+				82FB96A11E35DF94008EDA76 /* LaunchScreen.storyboard */,
+				82FB96C71E35DFE0008EDA76 /* AppDelegate.h */,
+				82FB96C81E35DFE0008EDA76 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		82FB96C91E35DFE0008EDA76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82FB96CA1E35DFE0008EDA76 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82FB96CB1E35DFE0008EDA76 /* ViewController.h */,
+				82FB96CC1E35DFE0008EDA76 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		82FB96CF1E35E012008EDA76 /* ZLYSpringBubble */ = {
+			isa = PBXGroup;
+			children = (
+				82FB96D01E35E48A008EDA76 /* ZLYBubbleView.h */,
+				82FB96D11E35E48A008EDA76 /* ZLYBubbleView.m */,
+				82FB96D61E35E7F8008EDA76 /* ZLYCircle.h */,
+				82FB96D71E35E7F8008EDA76 /* ZLYCircle.m */,
+			);
+			path = ZLYSpringBubble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FB968F1E35DF94008EDA76 /* ZLYSpringBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FB96BD1E35DF94008EDA76 /* Build configuration list for PBXNativeTarget "ZLYSpringBubble" */;
+			buildPhases = (
+				82FB968C1E35DF94008EDA76 /* Sources */,
+				82FB968D1E35DF94008EDA76 /* Frameworks */,
+				82FB968E1E35DF94008EDA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLYSpringBubble;
+			productName = ZLYSpringBubble;
+			productReference = 82FB96901E35DF94008EDA76 /* ZLYSpringBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82FB96A81E35DF94008EDA76 /* ZLYSpringBubbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FB96C01E35DF94008EDA76 /* Build configuration list for PBXNativeTarget "ZLYSpringBubbleTests" */;
+			buildPhases = (
+				82FB96A51E35DF94008EDA76 /* Sources */,
+				82FB96A61E35DF94008EDA76 /* Frameworks */,
+				82FB96A71E35DF94008EDA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FB96AB1E35DF94008EDA76 /* PBXTargetDependency */,
+			);
+			name = ZLYSpringBubbleTests;
+			productName = ZLYSpringBubbleTests;
+			productReference = 82FB96A91E35DF94008EDA76 /* ZLYSpringBubbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82FB96B31E35DF94008EDA76 /* ZLYSpringBubbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FB96C31E35DF94008EDA76 /* Build configuration list for PBXNativeTarget "ZLYSpringBubbleUITests" */;
+			buildPhases = (
+				82FB96B01E35DF94008EDA76 /* Sources */,
+				82FB96B11E35DF94008EDA76 /* Frameworks */,
+				82FB96B21E35DF94008EDA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FB96B61E35DF94008EDA76 /* PBXTargetDependency */,
+			);
+			name = ZLYSpringBubbleUITests;
+			productName = ZLYSpringBubbleUITests;
+			productReference = 82FB96B41E35DF94008EDA76 /* ZLYSpringBubbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FB96881E35DF94008EDA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "周凌宇";
+				TargetAttributes = {
+					82FB968F1E35DF94008EDA76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A59RPD6993;
+						ProvisioningStyle = Automatic;
+					};
+					82FB96A81E35DF94008EDA76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A59RPD6993;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82FB968F1E35DF94008EDA76;
+					};
+					82FB96B31E35DF94008EDA76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A59RPD6993;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82FB968F1E35DF94008EDA76;
+					};
+				};
+			};
+			buildConfigurationList = 82FB968B1E35DF94008EDA76 /* Build configuration list for PBXProject "ZLYSpringBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82FB96871E35DF94008EDA76;
+			productRefGroup = 82FB96911E35DF94008EDA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FB968F1E35DF94008EDA76 /* ZLYSpringBubble */,
+				82FB96A81E35DF94008EDA76 /* ZLYSpringBubbleTests */,
+				82FB96B31E35DF94008EDA76 /* ZLYSpringBubbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FB968E1E35DF94008EDA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FB96A31E35DF94008EDA76 /* LaunchScreen.storyboard in Resources */,
+				82FB96A01E35DF94008EDA76 /* Assets.xcassets in Resources */,
+				82FB969E1E35DF94008EDA76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB96A71E35DF94008EDA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB96B21E35DF94008EDA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FB968C1E35DF94008EDA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FB96D21E35E48A008EDA76 /* ZLYBubbleView.m in Sources */,
+				82FB96CD1E35DFE0008EDA76 /* AppDelegate.m in Sources */,
+				82FB96D81E35E7F8008EDA76 /* ZLYCircle.m in Sources */,
+				82FB96951E35DF94008EDA76 /* main.m in Sources */,
+				82FB96CE1E35DFE0008EDA76 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB96A51E35DF94008EDA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FB96AE1E35DF94008EDA76 /* ZLYSpringBubbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB96B01E35DF94008EDA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FB96B91E35DF94008EDA76 /* ZLYSpringBubbleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82FB96AB1E35DF94008EDA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FB968F1E35DF94008EDA76 /* ZLYSpringBubble */;
+			targetProxy = 82FB96AA1E35DF94008EDA76 /* PBXContainerItemProxy */;
+		};
+		82FB96B61E35DF94008EDA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FB968F1E35DF94008EDA76 /* ZLYSpringBubble */;
+			targetProxy = 82FB96B51E35DF94008EDA76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82FB969C1E35DF94008EDA76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FB969D1E35DF94008EDA76 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		82FB96A11E35DF94008EDA76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FB96A21E35DF94008EDA76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82FB96BB1E35DF94008EDA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82FB96BC1E35DF94008EDA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FB96BE1E35DF94008EDA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYSpringBubble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.ZLYSpringBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82FB96BF1E35DF94008EDA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYSpringBubble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.ZLYSpringBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82FB96C11E35DF94008EDA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYSpringBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.ZLYSpringBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYSpringBubble.app/ZLYSpringBubble";
+			};
+			name = Debug;
+		};
+		82FB96C21E35DF94008EDA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYSpringBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.ZLYSpringBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYSpringBubble.app/ZLYSpringBubble";
+			};
+			name = Release;
+		};
+		82FB96C41E35DF94008EDA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYSpringBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.ZLYSpringBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLYSpringBubble;
+			};
+			name = Debug;
+		};
+		82FB96C51E35DF94008EDA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYSpringBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.ZLYSpringBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLYSpringBubble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FB968B1E35DF94008EDA76 /* Build configuration list for PBXProject "ZLYSpringBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB96BB1E35DF94008EDA76 /* Debug */,
+				82FB96BC1E35DF94008EDA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FB96BD1E35DF94008EDA76 /* Build configuration list for PBXNativeTarget "ZLYSpringBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB96BE1E35DF94008EDA76 /* Debug */,
+				82FB96BF1E35DF94008EDA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FB96C01E35DF94008EDA76 /* Build configuration list for PBXNativeTarget "ZLYSpringBubbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB96C11E35DF94008EDA76 /* Debug */,
+				82FB96C21E35DF94008EDA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FB96C31E35DF94008EDA76 /* Build configuration list for PBXNativeTarget "ZLYSpringBubbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB96C41E35DF94008EDA76 /* Debug */,
+				82FB96C51E35DF94008EDA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FB96881E35DF94008EDA76 /* Project object */;
+}
