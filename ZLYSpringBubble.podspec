@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.deployment_target = "7.0"
+  s.platform = :ios, '7.0'
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.exclude_files = "ZLYSpringBubble/*.{h,m}"
+  s.source_files = "ZLYSpringBubble/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 

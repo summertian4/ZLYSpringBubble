@@ -6,6 +6,13 @@ ZLYSpringBubble 是一个仿 QQ 未读消息拖拽气泡的工具。
 
 ![ZLYSpringBubble 效果](res/ZLYSpringBubble-01.gif)
 
+# 版本
+
+1. **0.1.0**
+
+	- 简单的 QQ 未读气泡效果的实现
+	- 只支持单个气泡
+ 
 # 安装
 
 1. CocoaPods
@@ -13,10 +20,6 @@ ZLYSpringBubble 是一个仿 QQ 未读消息拖拽气泡的工具。
 ```
 pod ‘ZLYSpringBubble’
 ```
-
-2. 直接安装
-
-   直接拽入ZLYWaterWave.h和ZLYWaterWave.m文件
 
 # 使用
 
